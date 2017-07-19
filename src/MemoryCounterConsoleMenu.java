@@ -35,28 +35,28 @@ public class MemoryCounterConsoleMenu {
 
         while(running){
 
-            System.out.println("0 - decrement, 1 - increment, 2 - reset, 3 - add to memory, 4 - reset memory, 5 - quit");
+            System.out.println("1 - decrement, 2 - increment, 3 - reset, 4 - add to memory, 5 - reset memory, 0 - quit");
 
             int decision = input.nextInt();
 
             switch(decision) {
 
-                case 0:
+                case 1:
                     memoryCounter.decrement();
                     break;
-                case 1:
+                case 2:
                     memoryCounter.increment();
                     break;
-                case 2:
+                case 3:
                     memoryCounter.reset();
                     break;
-                case 3:
+                case 4:
                     memoryCounter.memoryAdd(memoryCounter.getCount());
                     break;
-                case 4:
+                case 5:
                     memoryCounter.memoryReset();
                     break;
-                case 5:
+                case 0:
                     quit();
 
             }
