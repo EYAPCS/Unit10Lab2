@@ -2,10 +2,17 @@
  * Created by emma on 7/8/17.
  */
 
+/**
+ * Counter class has an integer count.
+ */
+
 public class Counter {
 
     private int count;
 
+    /**
+     * Sets the count to zero
+     */
     public Counter() {
         reset();
     }

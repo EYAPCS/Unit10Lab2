@@ -3,10 +3,16 @@ import java.util.Scanner;
 /**
  * Created by emma on 7/9/17.
  */
+
+/**
+ * MemoryCounterConsoleMenu uses a MemoryCounter (and an inherited Counter) and controls it based on
+ * user input
+ * @author Emma Yang
+ */
+
 public class MemoryCounterConsoleMenu {
 
     private Scanner input;
-    private Counter counter;
     private MemoryCounter memoryCounter;
     private boolean running;
 
